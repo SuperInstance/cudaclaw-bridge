@@ -1,0 +1,9 @@
+[package]
+name = "cudaclaw-bridge"
+version = "0.1.0"
+edition = "2021"
+description = "Rust bridge between the Flux→PTX oxide pipeline and cudaclaw GPU execution runtime. Deploys compiled PTX to persistent CUDA kernels with warp-level consensus."
+license = "Apache-2.0"
+repository = "https://github.com/SuperInstance/cudaclaw-bridge"
+keywords = ["cuda", "gpu", "bridge", "cudaclaw", "ptx"]
+categories = ["hardware-support", "api-bindings"]
